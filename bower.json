@@ -3,7 +3,7 @@
   "version": "0.17.2",
   "main": [
     "src/angulartics.js",
-    "src/angulartics-amplitude.js",
+    "src/angulartics-amplitude.js"
   ],
   "dependencies": {
     "angular": ">= 1.1.5",

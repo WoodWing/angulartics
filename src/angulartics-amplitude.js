@@ -22,7 +22,9 @@
       });
 
       $analyticsProvider.registerEventTrack(function (action, properties) {
-        amplitude.logEvent(action, properties);
+		if (amplitude) {
+          amplitude.logEvent(action, properties);
+		}
       });
 
     }]);

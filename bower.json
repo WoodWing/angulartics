@@ -4,8 +4,6 @@
   "main": [
     "src/angulartics.js",
     "src/angulartics-amplitude.js",
-    "src/angulartics-flurry.js",
-    "src/angulartics-ga.js"
   ],
   "dependencies": {
     "angular": ">= 1.1.5",
